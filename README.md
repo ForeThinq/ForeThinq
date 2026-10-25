@@ -2,6 +2,8 @@
 <p align="center"><strong>n8n / Make automations + AI integrations for businesses that run on leads.</strong></p>
 <p align="center">I build systems that catch every lead, qualify it, and follow up automatically —<br/>so nothing slips through while you're busy doing the actual work.</p>
 
+<p align="center"><a href="https://forethinq.github.io/Forethinq/"><img src="https://img.shields.io/badge/Website-Forethinq_Labs-0A3D62?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit the Forethinq Labs website"/></a></p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/n8n-0A3D62?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
   <img src="https://img.shields.io/badge/Make-0A3D62?style=for-the-badge&logo=make&logoColor=white" alt="Make"/>
