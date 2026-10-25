@@ -8,7 +8,7 @@
 <p align="center"><strong>🤖 AI</strong>&nbsp;&nbsp;<img src="https://img.shields.io/badge/OpenAI-0A3D62?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/> <img src="https://img.shields.io/badge/Claude-0A3D62?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"/> <img src="https://img.shields.io/badge/LangChain-0A3D62?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/></p>
 <p align="center"><strong>🐍 Code &amp; data</strong>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Python-0A3D62?style=for-the-badge&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Google_Sheets-0A3D62?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets"/></p>
 
-<p align="center"><a href="#what-i-build">What I build</a> · <a href="#proof-of-work">Proof of work</a> · <a href="#how-i-work">How I work</a> · <a href="#faq">FAQ</a> · <a href="#contact">Contact</a></p>
+<p align="center"><a href="#what-i-build">What I build</a> · <a href="#how-i-work">How I work</a> · <a href="#contact">Contact</a></p>
 
 ---
 
@@ -23,18 +23,6 @@ Not generic "AI services" — each build is a working system with validation, de
 | **AI data extraction** | Invoices, forms, PDFs & messy CSVs → clean, validated rows — duplicates removed; scraping & list cleanup with AI enrichment |
 | **Workflow fixes & rescues** | Broken n8n / Make automations diagnosed, rebuilt & monitored with failure alerts |
 
-## Proof of work
-
-Demo systems, built like client work — small, complete and failure-aware, because that is what separates a sellable system from a tutorial screenshot.
-
-| # | Demo system | What it shows | Built with |
-|---|---|---|---|
-| 01 | **Inbound Lead Triage** | Validation, dedupe, AI scoring (HOT / WARM / COLD), Sheets logging + instant owner alerts | n8n · Gemini · Google Sheets · Gmail |
-| 02 | **WhatsApp AI Assistant** | Knowledge-only answers, booking flow, chat logging, human escalation | n8n · WhatsApp · Gemini · Sheets |
-| 03 | **AI Data Extraction** | Messy invoices & order messages → one clean, deduped CSV, with a per-file error log | Python (zero-dependency) |
-
-<sub>Repos with full READMEs and walkthrough videos are published here as each demo ships.</sub>
-
 ## How I work
 
 1. **Audit** — we map where leads or data are leaking today.
@@ -46,36 +34,6 @@ Demo systems, built like client work — small, complete and failure-aware, beca
 - ✅ Built inside **your** accounts (your n8n/Make, your Sheets/CRM, your WhatsApp number)
 - ✅ Every workflow ships with error alerts, a README, and a walkthrough video
 - ✅ Payments via Wise / UPI
-
-## FAQ
-
-<details>
-<summary><strong>What do you need from me to start?</strong></summary>
-<br/>
-A short call or message about where leads, messages or data currently fall through. I audit first, then quote a fixed price — you approve the scope before any build begins.
-<br/><br/>
-</details>
-
-<details>
-<summary><strong>Who owns the accounts and the data?</strong></summary>
-<br/>
-You do. Everything is built inside your own n8n/Make, your Sheets/CRM and your WhatsApp number — nothing is locked inside my accounts.
-<br/><br/>
-</details>
-
-<details>
-<summary><strong>What happens if something breaks?</strong></summary>
-<br/>
-Failures are visible by design: every build ships with error workflows and owner alerts, so a problem reaches you before your customers notice. Handover includes fix support.
-<br/><br/>
-</details>
-
-<details>
-<summary><strong>How do payments work?</strong></summary>
-<br/>
-Wise for international clients, UPI within India. Terms are agreed in the scope, before the build starts.
-<br/><br/>
-</details>
 
 ## Contact
 
