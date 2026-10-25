@@ -45,12 +45,11 @@
     background:rgba(4,7,12,.66); border-bottom:1px solid rgba(127,212,255,.10);
   }
   .nav{display:flex; align-items:center; justify-content:space-between; gap:20px; padding:16px 0}
-  .brand{display:flex; flex-direction:column; gap:2px; text-decoration:none; line-height:1.02}
-  .brand-word{font-weight:900; letter-spacing:.18em; color:#eaf6ff; font-size:19px}
-  .brand-labs{font-weight:800; letter-spacing:.44em; color:var(--ice); font-size:14px}
-  .brand-word,.brand-labs,h1,h2,.kicker{font-family:'Montserrat',sans-serif}
-  footer .brand-word{font-size:13px}
-  footer .brand-labs{font-size:10px}
+  .brand{display:flex; align-items:center; text-decoration:none}
+  .brand-img{height:40px; width:auto; display:block; mix-blend-mode:screen}
+  h1,h2,.kicker{font-family:'Montserrat',sans-serif}
+  .foot-brand{display:inline-flex; align-items:center; gap:12px}
+  .foot-brand .brand-img{height:28px}
   .mark{width:38px; height:38px; border:1.5px solid var(--ice); border-radius:50%; display:grid; place-items:center; position:relative; box-shadow:0 0 24px rgba(127,212,255,.45), inset 0 0 18px rgba(127,212,255,.18); font-size:19px}
   .mark::after{content:""; position:absolute; width:17px; height:2px; background:var(--ice); right:-6px; bottom:7px; transform:rotate(-45deg); border-radius:99px; box-shadow:0 0 12px var(--ice)}
   nav.links{display:flex; gap:26px; align-items:center}
@@ -140,8 +139,7 @@
 <header>
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="Forethinq Labs home">
-      <span class="brand-word">FORETHINQ</span>
-      <span class="brand-labs">LABS</span>
+      <img class="brand-img" src="./Animated%20Forethinq%20Wordmark.gif" alt="Forethinq Labs">
     </a>
     <nav class="links" aria-label="Primary">
       <a href="#services">Services</a>
@@ -269,7 +267,7 @@
 
 <footer>
   <div class="wrap foot">
-    <span><span class="brand-word">FORETHINQ</span> <span class="brand-labs">LABS</span> · © <span id="year"></span></span>
+    <span class="foot-brand"><img class="brand-img" src="./Animated%20Forethinq%20Wordmark.gif" alt="Forethinq Labs"> © <span id="year"></span></span>
     <span>n8n / Make automations + AI integrations — working worldwide.</span>
   </div>
 </footer>
