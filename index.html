@@ -59,8 +59,13 @@
   .eyebrow{display:inline-flex; gap:9px; align-items:center; padding:8px 13px; border:1px solid var(--line); border-radius:999px; color:#c9e9ff; background:rgba(10,61,98,.34); font-size:12px; font-weight:800; letter-spacing:.16em; text-transform:uppercase}
   .dot{width:7px; height:7px; border-radius:50%; background:var(--cyan); box-shadow:0 0 16px var(--cyan); animation:pulse 1.8s infinite}
   @keyframes pulse{0%,100%{transform:scale(1); opacity:1}50%{transform:scale(1.55); opacity:.55}}
-  .hero-banner{margin:30px auto 4px; max-width:980px}
-  .hero-banner img{width:100%; height:auto; display:block; border-radius:20px; border:1px solid rgba(127,212,255,.16); box-shadow:0 30px 80px rgba(0,0,0,.55), 0 0 90px rgba(46,127,194,.20)}
+  .hero-banner{margin:10px auto -6px; max-width:1040px}
+  .hero-banner img{
+    width:100%; height:auto; display:block;
+    mix-blend-mode:screen;
+    -webkit-mask-image:linear-gradient(to bottom, transparent 0%, #000 16%, #000 84%, transparent 100%);
+    mask-image:linear-gradient(to bottom, transparent 0%, #000 16%, #000 84%, transparent 100%);
+  }
   .hero h1{max-width:900px; margin:34px auto 0; font-size:clamp(32px, 5.4vw, 62px); line-height:1.02; letter-spacing:-.045em}
   .hero h1 em{font-style:normal; color:transparent; background:linear-gradient(90deg, #eaf6ff, #7fd4ff, #38e1ff, #eaf6ff); background-size:220% 100%; -webkit-background-clip:text; background-clip:text; animation:shine 5.5s linear infinite}
   @keyframes shine{to{background-position:220% 0}}
