@@ -1,4 +1,4 @@
-<h1 align="center">Forethinq Labs</h1>
+<p align="center"><img src="./Final%20wordmark.png" alt="Forethinq Labs" width="100%"/></p>
 <p align="center"><strong>n8n / Make automations + AI integrations for businesses that run on leads.</strong></p>
 <p align="center">I build systems that catch every lead, qualify it, and follow up automatically —<br/>so nothing slips through while you're busy doing the actual work.</p>
 
