@@ -13,30 +13,18 @@
 
 <p align="center"><img src="./divider-animated.svg" alt="" width="100%"/></p>
 
-<img src="./section-what-i-build.svg" alt="What I build" width="100%"/>
+<img src="./panel-services.svg" alt="What I build" width="100%"/>
 
-| Service | What it does |
-|---|---|
-| **Lead-flow automation** | Capture → dedupe → AI classify & score → CRM/Sheets → instant alert → follow-up |
-| **WhatsApp AI assistants** | Lead qualification, FAQ answered from your own docs, booking, human handoff — everything logged to Sheets/CRM |
-| **AI data extraction** | Forms, docs & invoices turned into clean Sheets/CRM rows; scraping & list cleanup with AI enrichment |
-| **Workflow fixes & rescues** | Broken automations diagnosed, rebuilt, and monitored |
+<img src="./panel-demos.svg" alt="Proof of work — demo systems" width="100%"/>
 
-<p align="center"><img src="./divider-animated.svg" alt="" width="100%"/></p>
+<img src="./panel-process.svg" alt="How I work" width="100%"/>
 
-<img src="./section-how-i-work.svg" alt="How I work" width="100%"/>
+<p align="center"><strong>Send me the workflow that is wasting your time.</strong></p>
 
-- ✅ Fixed price agreed before work starts — a small paid test is welcome
-- ✅ Built inside **your** accounts (your n8n/Make, your Sheets/CRM)
-- ✅ Every workflow ships with error alerts, a README, and a walkthrough video
-- ✅ Payments via Wise / UPI
-
-<p align="center"><img src="./divider-animated.svg" alt="" width="100%"/></p>
-
-<img src="./section-contact.svg" alt="Contact" width="100%"/>
-
-<p>
+<p align="center">
   <a href="mailto:forethinq@gmail.com"><img src="https://img.shields.io/badge/Email-forethinq@gmail.com-0A3D62?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://www.reddit.com/user/ForeThinq/"><img src="https://img.shields.io/badge/Reddit-u/ForeThinq-0A3D62?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit"/></a>
   <a href="https://community.n8n.io/u/forethinq"><img src="https://img.shields.io/badge/n8n_Community-@forethinq-0A3D62?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n Community"/></a>
 </p>
+
+<p align="center"><sub>Fixed price · Built in your accounts · Working worldwide</sub></p>
