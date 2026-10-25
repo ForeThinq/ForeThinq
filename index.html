@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Forethinq Labs — Automations + AI Integrations</title>
 <meta name="description" content="Forethinq Labs builds n8n/Make automations and AI integrations that capture, qualify and follow up every lead." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#04070c; --bg2:#071120; --panel:rgba(10,25,43,.72); --panel2:rgba(13,35,58,.86);
@@ -43,10 +46,11 @@
   }
   .nav{display:flex; align-items:center; justify-content:space-between; gap:20px; padding:16px 0}
   .brand{display:flex; flex-direction:column; gap:2px; text-decoration:none; line-height:1.02}
-  .brand-word{font-weight:900; letter-spacing:.045em; color:#eaf6ff; font-size:19px}
-  .brand-labs{font-weight:800; letter-spacing:.52em; color:var(--ice); font-size:11px}
+  .brand-word{font-weight:900; letter-spacing:.18em; color:#eaf6ff; font-size:19px}
+  .brand-labs{font-weight:800; letter-spacing:.44em; color:var(--ice); font-size:14px}
+  .brand-word,.brand-labs,h1,h2,.kicker{font-family:'Montserrat',sans-serif}
   footer .brand-word{font-size:13px}
-  footer .brand-labs{font-size:9px}
+  footer .brand-labs{font-size:10px}
   .mark{width:38px; height:38px; border:1.5px solid var(--ice); border-radius:50%; display:grid; place-items:center; position:relative; box-shadow:0 0 24px rgba(127,212,255,.45), inset 0 0 18px rgba(127,212,255,.18); font-size:19px}
   .mark::after{content:""; position:absolute; width:17px; height:2px; background:var(--ice); right:-6px; bottom:7px; transform:rotate(-45deg); border-radius:99px; box-shadow:0 0 12px var(--ice)}
   nav.links{display:flex; gap:26px; align-items:center}
@@ -69,7 +73,7 @@
     -webkit-mask-image:linear-gradient(to bottom, transparent 0%, #000 16%, #000 84%, transparent 100%);
     mask-image:linear-gradient(to bottom, transparent 0%, #000 16%, #000 84%, transparent 100%);
   }
-  .hero h1{max-width:900px; margin:34px auto 0; font-size:clamp(32px, 5.4vw, 62px); line-height:1.02; letter-spacing:-.045em}
+  .hero h1{max-width:900px; margin:34px auto 0; font-size:clamp(32px, 5.4vw, 62px); line-height:1.04; letter-spacing:-.02em}
   .hero h1 em{font-style:normal; color:transparent; background:linear-gradient(90deg, #eaf6ff, #7fd4ff, #38e1ff, #eaf6ff); background-size:220% 100%; -webkit-background-clip:text; background-clip:text; animation:shine 5.5s linear infinite}
   @keyframes shine{to{background-position:220% 0}}
   .hero p{max-width:760px; margin:22px auto 0; color:var(--muted); font-size:clamp(16px, 2vw, 19px); line-height:1.7}
@@ -85,7 +89,7 @@
   section{padding:74px 0}
   .section-head{display:flex; align-items:end; justify-content:space-between; gap:28px; margin-bottom:28px}
   .kicker{color:var(--ice); font-size:12px; font-weight:900; letter-spacing:.26em; text-transform:uppercase}
-  h2{font-size:clamp(30px, 4.6vw, 50px); line-height:1.04; letter-spacing:-.04em; margin:10px 0 0}
+  h2{font-size:clamp(30px, 4.6vw, 50px); line-height:1.08; letter-spacing:-.015em; margin:10px 0 0}
   .section-head p{color:var(--muted); max-width:480px; line-height:1.65; margin:0}
   .grid{display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:18px}
   .card{
