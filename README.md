@@ -1,8 +1,6 @@
-<p align="center">
-  <h1 align="center">Forethinq Labs</h1>
-  <p align="center"><strong>n8n / Make automations + AI integrations for businesses that run on leads.</strong></p>
-  <p align="center">I build systems that catch every lead, qualify it, and follow up automatically —<br/>so nothing slips through while you're busy doing the actual work.</p>
-</p>
+<h1 align="center">Forethinq Labs</h1>
+<p align="center"><strong>n8n / Make automations + AI integrations for businesses that run on leads.</strong></p>
+<p align="center">I build systems that catch every lead, qualify it, and follow up automatically —<br/>so nothing slips through while you're busy doing the actual work.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
